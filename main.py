@@ -1,7 +1,6 @@
 import requests , os , psutil , sys , jwt , pickle , json , binascii , time , urllib3 , base64 , datetime , re , socket , threading , ssl , pytz , aiohttp
 import asyncio
 from aiohttp import web
-from xC4 import * ; from xHeaders import *
 from datetime import datetime
 from google.protobuf.timestamp_pb2 import Timestamp
 from concurrent.futures import ThreadPoolExecutor
@@ -482,3 +481,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
 
         print("\nBot shutting down.")
+
