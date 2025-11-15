@@ -1,6 +1,6 @@
 
 import requests , os , psutil , sys , jwt , pickle , json , binascii , time , urllib3 , base64 , datetime , re ,socket , threading
-from protobuf_decoder.protobuf_decoder import Parser
+
 from xC4 import *
 from datetime import datetime
 from google.protobuf.timestamp_pb2 import Timestamp
